@@ -1,0 +1,19 @@
+BIG BLACK PUPPET SITE NOTES
+
+Static site.
+
+Main files:
+index.html
+styles.css
+script.js
+
+Before final launch add:
+assets/video/big-black-puppet.mp4
+
+After upload test:
+home page
+background video
+watch button
+YouTube video
+streaming links
+contact email
