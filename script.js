@@ -1,17 +1,23 @@
 const watchButton = document.getElementById('watchButton');
 const heroVideo = document.querySelector('.hero-video');
 
+function scrollToOfficialVideo() {
+  const videoSection = document.getElementById('video');
+  if (videoSection) {
+    videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 if (watchButton) {
   watchButton.addEventListener('click', () => {
     if (heroVideo) {
       heroVideo.muted = false;
       heroVideo.volume = 1;
-      heroVideo.play().catch(() => {});
+      heroVideo.play().catch(() => {
+        scrollToOfficialVideo();
+      });
     }
 
-    const videoSection = document.getElementById('video');
-    if (videoSection) {
-      videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    scrollToOfficialVideo();
   });
 }
