@@ -8,40 +8,46 @@
   <meta property="og:title" content="Big Black Puppet – Sasha Persholja" />
   <meta property="og:description" content="Choose your favorite platform to listen, buy or support Big Black Puppet." />
   <meta name="theme-color" content="#050505" />
-  <link rel="preconnect" href="https://www.youtube.com" />
-  <link rel="preconnect" href="https://i.ytimg.com" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="manifest" href="site.webmanifest" />
 </head>
 <body>
-  <header class="hero" id="top">
-    <video class="hero-video" autoplay muted loop playsinline preload="metadata">
-      <source src="assets/video/big-black-puppet.mp4" type="video/mp4" />
-      Big Black Puppet official video background.
-    </video>
-    <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn sound on" aria-pressed="false">🔇 Sound Off</button>
-    <div class="fallback-bg"></div>
-    <div class="shade"></div>
-    <div class="hero-content final-hero">
-      <p class="eyebrow">Sasha Persholja</p>
-      <h1>Big Black Puppet</h1>
-      <p class="hero-line">You heard the track. Choose your favorite music service.</p>
-      <div class="hero-actions">
-        <button class="play-button" id="platformButton" type="button" aria-label="Choose your music platform">
-          <span class="play-icon">♪</span>
-          <span>Choose Your Platform</span>
-        </button>
-        <a class="ghost-button" href="#video">Watch Official Video</a>
-      </div>
-    </div>
+  <header class="topbar">
+    <a class="artist-logo" href="#top">Sasha Persholja</a>
+    <a class="top-contact" href="#contact">Contact</a>
   </header>
 
-  <main>
+  <main id="top">
+    <section class="hero poster-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Sasha Persholja</p>
+        <h1>Big<br>Black<br>Puppet</h1>
+        <p class="byline">by</p>
+        <h2>Sasha Persholja</h2>
+        <p class="hero-line">A song about power, control and the shadows we play with.</p>
+        <div class="hero-actions">
+          <button class="play-button" id="platformButton" type="button" aria-label="Choose your music platform">
+            <span class="play-icon">♪</span>
+            <span>Choose Your Platform</span>
+          </button>
+          <a class="ghost-button" href="#video">Watch Official Video</a>
+        </div>
+      </div>
+
+      <div class="hero-video-panel">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+          <source src="assets/video/big-black-puppet.mp4" type="video/mp4" />
+          Big Black Puppet official video background.
+        </video>
+        <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn sound on" aria-pressed="false">🔇 Sound Off</button>
+      </div>
+    </section>
+
     <section class="section feature-grid" id="listen">
       <article class="feature-card cover-card">
         <p class="section-kicker">Single</p>
         <h2>Big Black Puppet</h2>
-        <p>Raw groove, grit, street energy and the signature Fejkavangard sound.</p>
+        <p>Sasha Persholja</p>
       </article>
 
       <article class="feature-card stream-card">
@@ -56,7 +62,7 @@
         </div>
       </article>
 
-      <article class="feature-card contact-card">
+      <article class="feature-card contact-card" id="contact">
         <p class="section-kicker">Contact</p>
         <h2>Bookings / Collaborations</h2>
         <a class="email-link" href="mailto:sasha.persholja@gmail.com">sasha.persholja@gmail.com</a>
