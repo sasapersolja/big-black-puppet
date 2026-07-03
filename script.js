@@ -1,23 +1,12 @@
-const watchButton = document.getElementById('watchButton');
-const heroVideo = document.querySelector('.hero-video');
+const platformButton = document.getElementById('platformButton');
 
-function scrollToOfficialVideo() {
-  const videoSection = document.getElementById('video');
-  if (videoSection) {
-    videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+function scrollToPlatformSection() {
+  const listenSection = document.getElementById('listen');
+  if (listenSection) {
+    listenSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
-if (watchButton) {
-  watchButton.addEventListener('click', () => {
-    if (heroVideo) {
-      heroVideo.muted = false;
-      heroVideo.volume = 1;
-      heroVideo.play().catch(() => {
-        scrollToOfficialVideo();
-      });
-    }
-
-    scrollToOfficialVideo();
-  });
+if (platformButton) {
+  platformButton.addEventListener('click', scrollToPlatformSection);
 }
