@@ -1,0 +1,11 @@
+/* TEAM */
+Artist: Sasha Persholja
+Project: Big Black Puppet
+Website: Official landing page
+
+/* CONTACT */
+Email: sasha.persholja@gmail.com
+
+/* SITE */
+Type: Static HTML/CSS/JavaScript
+Theme: Alternative Rock / Experimental Groove / Fejkavangard
