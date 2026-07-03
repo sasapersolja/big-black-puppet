@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Local editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Optional local builds
+dist/
+build/
