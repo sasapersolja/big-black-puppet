@@ -26,13 +26,19 @@ This project is separate from the main Sasha Persholja website.
 
 sasha.persholja@gmail.com
 
-## MP4 upload step
+## Required final asset
 
-When the site code is ready, upload the official music video MP4 to:
+Upload the official music video MP4 to this exact path:
 
 `assets/video/big-black-puppet.mp4`
 
 The homepage already points to this file for the looping background video.
+
+## Clean status
+
+Known broken references were removed.
+The site no longer points to a missing favicon or missing hero poster image.
+The only expected missing file before final launch is the MP4 above.
 
 ## Design direction
 
