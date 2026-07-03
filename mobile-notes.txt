@@ -1,0 +1,25 @@
+MOBILE BEHAVIOR NOTES
+
+The site is built for phones first enough to work on Android and iPhone.
+
+Current mobile behavior:
+- Hero fills the phone screen.
+- Title scales down with clamp CSS.
+- Watch with Sound button becomes wide and easy to tap.
+- Listen links stack vertically.
+- YouTube video stays responsive in 16:9 ratio.
+- Sections use reduced padding below 700px width.
+- Motion reduction is supported for users who prefer reduced motion.
+
+Important mobile video note:
+Mobile browsers often block autoplay with sound.
+The background video is muted, looped and playsinline to improve autoplay support.
+Sound is enabled only after the user taps Watch with Sound.
+
+Final test devices:
+- Samsung Galaxy / Android Chrome
+- iPhone Safari
+- Desktop Chrome
+
+Required before final test:
+assets/video/big-black-puppet.mp4
