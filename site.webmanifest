@@ -1,0 +1,16 @@
+{
+  "name": "Big Black Puppet – Sasha Persholja",
+  "short_name": "Big Black Puppet",
+  "description": "Official Big Black Puppet website by Sasha Persholja.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
