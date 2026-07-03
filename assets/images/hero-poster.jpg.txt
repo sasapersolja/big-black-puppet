@@ -1,4 +1,0 @@
-Upload or replace with a real image named hero-poster.jpg in this folder.
-
-This placeholder note exists so the assets/images folder is present in GitHub.
-Suggested image size: 1920x1080 or larger.
