@@ -24,44 +24,51 @@
   </header>
 
   <main id="top">
-    <section class="hero mock-hero">
-      <div class="red-smoke"></div>
+    <section class="hero poster-hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="assets/video/big-black-puppet.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-shade"></div>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn sound on" aria-pressed="false">🔇 Sound Off</button>
+
       <div class="hero-copy">
-        <p class="eyebrow">Sasha Persholja</p>
         <h1>Big<br>Black<br>Puppet</h1>
         <p class="byline">by</p>
         <h2>Sasha Persholja</h2>
         <p class="hero-line">A song about power, control and the shadows we play with.</p>
-        <a class="watch-button" href="#video"><span>▶</span>Watch Video</a>
-      </div>
-      <div class="hero-video-panel">
-        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
-          <source src="assets/video/big-black-puppet.mp4" type="video/mp4" />
-        </video>
-        <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn sound on" aria-pressed="false">🔇 Sound Off</button>
+        <a class="main-button" href="#listen"><span>🎧</span>Choose Your Platform</a>
       </div>
     </section>
 
-    <section class="mock-grid" id="listen">
-      <article class="cover-card">
-        <div>
-          <h2>Big Black Puppet</h2>
-          <p>Sasha Persholja</p>
-        </div>
-      </article>
-
-      <article class="platform-card">
-        <p class="section-kicker">Listen Everywhere</p>
-        <div class="platform-links">
-          <a class="bandcamp" href="https://sashapersholja.bandcamp.com/track/sasha-persholja-big-black-puppet" target="_blank" rel="noopener noreferrer"><span></span>Bandcamp</a>
-          <a class="apple" href="https://music.apple.com/si/song/big-black-puppet/982227462" target="_blank" rel="noopener noreferrer"><span>♫</span>Apple Music / iTunes</a>
-          <a class="amazon" href="https://music.amazon.co.uk/tracks/B00VNAROZU" target="_blank" rel="noopener noreferrer"><span>a</span>Amazon Music</a>
-          <a class="spotify" href="https://open.spotify.com/track/2pIdN8tXCmOSbnNmYLfQDe" target="_blank" rel="noopener noreferrer"><span>●</span>Spotify</a>
-          <a class="youtube" href="https://music.youtube.com/watch?v=3VD7p3k7EPQ&list=OLAK5uy_mm2sYLMXfEzinVeoVPefhK3CbtJ1HcVGM" target="_blank" rel="noopener noreferrer"><span>▶</span>YouTube Music</a>
-        </div>
-      </article>
-
-      <article class="live-card" aria-label="Sasha Persholja live performance image"></article>
+    <section class="listen-section" id="listen">
+      <div class="section-title"><span></span><h2>Listen Everywhere</h2><span></span></div>
+      <div class="platform-cards">
+        <a class="platform-card bandcamp" href="https://sashapersholja.bandcamp.com/track/sasha-persholja-big-black-puppet" target="_blank" rel="noopener noreferrer">
+          <strong><i></i>Bandcamp</strong>
+          <em>Buy / Support</em>
+          <small>Direct from the artist</small>
+        </a>
+        <a class="platform-card apple" href="https://music.apple.com/si/song/big-black-puppet/982227462" target="_blank" rel="noopener noreferrer">
+          <strong>♫ Apple Music</strong>
+          <em>Listen</em>
+          <small>Stream & Download</small>
+        </a>
+        <a class="platform-card amazon" href="https://music.amazon.co.uk/tracks/B00VNAROZU" target="_blank" rel="noopener noreferrer">
+          <strong>amazon<br><b>music</b></strong>
+          <em>Listen</em>
+          <small>Stream & Download</small>
+        </a>
+        <a class="platform-card spotify" href="https://open.spotify.com/track/2pIdN8tXCmOSbnNmYLfQDe" target="_blank" rel="noopener noreferrer">
+          <strong>● Spotify</strong>
+          <em>Listen</em>
+          <small>Stream on Spotify</small>
+        </a>
+        <a class="platform-card youtube" href="https://music.youtube.com/watch?v=3VD7p3k7EPQ&list=OLAK5uy_mm2sYLMXfEzinVeoVPefhK3CbtJ1HcVGM" target="_blank" rel="noopener noreferrer">
+          <strong>▶ YouTube Music</strong>
+          <em>Listen</em>
+          <small>Stream on YouTube</small>
+        </a>
+      </div>
     </section>
 
     <section class="statement-contact" id="contact">
@@ -80,14 +87,6 @@
           <a href="https://www.youtube.com/@mkudmkud" target="_blank" rel="noopener noreferrer">▶</a>
           <a href="https://open.spotify.com/artist/4QYxABWNLOKG9poHbP6Qlj" target="_blank" rel="noopener noreferrer">●</a>
         </div>
-      </div>
-    </section>
-
-    <section class="video-section" id="video">
-      <p class="section-kicker">Official Video</p>
-      <h2>Big Black Puppet</h2>
-      <div class="video-frame">
-        <iframe src="https://www.youtube.com/embed/-iymuixbXrU?rel=0" title="Big Black Puppet – Sasha Persholja Official Music Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
   </main>
