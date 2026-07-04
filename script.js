@@ -1,6 +1,7 @@
 const platformButton = document.getElementById('platformButton');
 const soundToggle = document.getElementById('soundToggle');
 const heroVideo = document.querySelector('.hero-video');
+const topbar = document.querySelector('.topbar');
 
 function scrollToPlatformSection() {
   const listenSection = document.getElementById('listen');
@@ -18,8 +19,18 @@ function updateSoundButton() {
   soundToggle.setAttribute('aria-pressed', String(soundIsOn));
 }
 
+function updateHeaderScrollState() {
+  if (!topbar) return;
+  topbar.classList.toggle('scrolled', window.scrollY > 24);
+}
+
 if (platformButton) {
   platformButton.addEventListener('click', scrollToPlatformSection);
+}
+
+if (topbar) {
+  updateHeaderScrollState();
+  window.addEventListener('scroll', updateHeaderScrollState, { passive: true });
 }
 
 if (soundToggle && heroVideo) {
